@@ -1,0 +1,53 @@
+h1 {
+  color: aquamarine;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: rgb(99, 57, 57);
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-style: oblique;
+  text-transform: uppercase;
+  background-color: aliceblue;
+  border: 5px solid blue; 
+  border: 5px dashed blue;
+  border-bottom: 5px dashed black;
+  display: inline-block;
+  
+}
+
+p {
+  color: blue;
+  line-height: 1.5;
+  text-align: justify;
+  color: #ca3131;
+
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a:hover{
+    color: beige;
+}
+a:active{
+    color: aquamarine;
+}
+li{
+    list-style: none;
+}
+li:nth-child(odd){
+    color: aqua;
+}
+#section--1{
+    color: antiquewhite;
+}
+img{
+    width:100%;
+    height: auto;
+}
