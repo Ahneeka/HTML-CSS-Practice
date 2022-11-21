@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: #19191b;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.head_one{
+    margin-top: 10px;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+}
+
+.nav_one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.first_nav{
+    width: 10%;
+    height: 100%;
+}
+
+.second_nav{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    word-spacing: 20px;
+    cursor: pointer;
+}
+
+.second_nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.third_nav{
+    width: 40%;
+    height: 100%;
+}
+
+.nav_ptag{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav_span{
+    color: red;
+}
+
+.nav_spar{
+    color: blue;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first_ui{
+    list-style-type: none;
+    display: flex;
+}
+
+.second_nav a{
+    color: rgb(74,77,77);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.second_nav a:hover{
+    color: #fff;
+}
+
+.nav_one.third_nav.first_ui{
+    justify-content: flex-end;
+}
+
+.nav_one.third_nav.first_ui li a{
+    color: rgb(74,77,77);
+    font-size: 25px;
+    margin: 10px 10px;
+}
+
+.nav_one.third_nav.first_ui li a:hover{
+    color: #fff;
+}

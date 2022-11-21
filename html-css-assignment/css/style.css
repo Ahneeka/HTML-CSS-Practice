@@ -45,5 +45,47 @@ a:hover{
 }
 
 p{
-    text-align: center;
+    text-align: left;
+    color: rgb(27, 70, 163);
+    font-family: sans-serif;
+    
 }
+.box{
+  display: inline-block;
+}
+
+h4{
+  color: aqua;
+  
+}
+.image{
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 5%;
+
+}
+.paragraph{
+  display: inline-block;
+  width: 60%;
+}
+.radius{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+h5{
+  font-family: sans-serif;
+  
+}
+
+.color{
+  background-color:rgb(195, 233, 219);
+}
+.img{
+  display:inline-block;
+  margin-left: 80%;
+  }
+
+  .para{
+    text-align:left ;
+  }

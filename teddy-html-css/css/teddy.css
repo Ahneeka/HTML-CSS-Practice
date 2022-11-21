@@ -1,0 +1,265 @@
+.teddy_body {
+  background-color: black;
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+.left_ear {
+  background-color: rgb(151, 50, 90);
+  right: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  position: absolute;
+}
+
+.right_ear {
+  background-color: rgb(151, 50, 90);
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  position: absolute;
+}
+
+.big_head {
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.eyes_one {
+  background-color: black;
+  height: 10px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 2px -2px 0 10px black inset;
+  right: 20px;
+  top: 20px;
+}
+.eyes_two {
+  background-color: black;
+  height: 10px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 2px -2px 0 10px black inset;
+  right: 10px;
+  top: 50px;
+  position: absolute;
+}
+
+.teddy_body {
+  background-color: rgb(133, 54, 97);
+  height: 500px;
+  width: 400px;
+  position: relative;
+}
+
+.teddy_body div {
+  position: absolute;
+}
+
+.left_ear {
+  background-color: rgb(151, 50, 90);
+  right: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  position: absolute;
+}
+
+.right_ear {
+  background-color: rgb(151, 50, 90);
+  left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 25px white inset;
+  position: absolute;
+}
+
+.big_head {
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.eyes_one {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 2px -2px 0 12px inset;
+  right: 9.5em;
+  top: 90px;
+  z-index: 1;
+  animation-name: eye_blink;
+  animation-iteration-count: 2s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: eye_blink 1.5s infinite;
+}
+.eyes_two {
+  background-color: rgb(255, 255, 255);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 2px -2px 0 12px black inset;
+  left: 9.5em;
+  top: 90px;
+  z-index: 1;
+  animation-name: eye_blink;
+  animation-iteration-count: 2s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: eye_blink 1.5s infinite;
+}
+@keyframes eye_blink {
+  20% {
+    transform: scaleY(1);
+  }
+
+  22% {
+    transform: scaleY(0.2);
+  }
+
+  26% {
+    transform: scaleY(1);
+  }
+
+  28% {
+    transform: scaleY(1);
+  }
+  30% {
+    transform: scaleY(1);
+  }
+
+  65% {
+    transform: scaleY(1);
+  }
+
+  67% {
+    transform: scaleY(1);
+  }
+
+  69% {
+    transform: scaleY(1);
+  }
+}
+.big_mouth {
+  width: 150px;
+  height: 100px;
+  background-color: #7e4d47;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+}
+
+.big_mouth_0ne {
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 70px;
+  right: 40px;
+  position: absolute;
+  top: 2px;
+}
+
+.big_mouth_two {
+  background-color: black;
+  border-radius: 50%;
+  height: 35px;
+  width: 40px;
+  right: 50px;
+  position: absolute;
+  top: 1px;
+  z-index: 1;
+}
+.big_nose {
+  width: 60px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #f868c9;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+}
+/*.stomach{
+  background-color: white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  margin: auto;
+}*/
+.body {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  right: 250px;
+  z-index: 2;
+}
+.body2 {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  z-index: 2;
+}
+.body3 {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top:400px;
+  right: 250px;
+  z-index: 2;
+}
+.body4 {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  z-index: 2;
+}
+.body_center {
+  background-color: rgb(224, 187, 187);
+  height: 250px;
+  width: 200px;
+  border-radius: 40%;
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  z-index: 1;
+}

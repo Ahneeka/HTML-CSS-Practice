@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 420px;
+    width: 420px;
+}
+.item {
+    background-color: white;
+    border:1px solid black;
+    
+}
+
+.can{
+    display: flex;
+    justify-content: center;
+    /*height: 100px;
+    width: 100px;*/
+    justify-content: space-around;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 40px;
+    
+    /*gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100px;
+    width: 100px; */
+
+}
+.name{
+    background-color: white;
+    border:1px solid black;
+    
+
+}
