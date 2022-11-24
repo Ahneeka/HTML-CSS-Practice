@@ -8,6 +8,10 @@ h1{
     font-family: sans-serif ;
     font-size: 10px;
 }
+.register{
+    background-color: green;
+    
+}
 
 .style{
     display:flex;
@@ -33,7 +37,7 @@ h1{
     
 }
 h2{
-    color: rgb(63, 119, 63);
+    color: green;
     font-family: sans-serif;
     font-size: 10px;
 
@@ -46,4 +50,12 @@ h3{
 h4{
     color: white;
     font-size: 10px;
+}
+.div{
+    background-color: white;
+    display: flex;
+    width: 30;
+    height: 30px;
+    border-radius: 2px;
+
 }

@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+    
+    
+}
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    height: 80px;
+    width: 420px;
+}
+.name--1{
+    background-color: aqua;
+}
+.name--2{
+    background-color: yellow;
+}
+.name--3{
+    background-color: aquamarine;
+}
+.name--4{
+    background-color: bisque;
+}

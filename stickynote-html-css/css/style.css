@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+    border-radius: 10px;
+    
+}
+
+.style{
+    font-size: 10px;
+    display: flex;
+    background-color: rgb(141, 134, 134);
+}
+.link{
+    font-size: 5px;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+    height: 90px;
+    width: 420px;
+}
+.name--1{
+    background-color: rgb(63, 95, 124);
+}
+.name--2{
+    background-color: blue;
+}
+.name--3{
+    background-color: blueviolet;
+}
+.name--4{
+    background-color: aqua;
+}
+
+.square{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 420px;
+    width: 420px;
+}
+.item--1{
+    background-color: brown;
+    
+}
+.item--2{
+    background-color: aquamarine;
+}
+.item--3{
+    background-color: antiquewhite;
+}
+.item--4{
+    background-color: purple;
+}
+
+.together{
+    padding: 10px;
+    margin: 20px;
+}

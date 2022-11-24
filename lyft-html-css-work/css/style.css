@@ -1,4 +1,38 @@
 h1{
     color: rgb(255, 0, 191);
-    font-family:
+    
 }
+.style{
+    display: flex;
+    align-items: center;
+}
+
+.navlink{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 10px;
+    
+}
+
+.button{
+    margin-inline: auto;
+    padding: 10px;
+    color: rgb(155, 146, 146);
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.navcon{
+    margin-inline: auto;
+}
+
+.join{
+    font-size: 8px;
+    background-color: rgb(241, 241, 109);
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
