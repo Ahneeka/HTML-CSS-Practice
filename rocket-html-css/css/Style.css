@@ -9,7 +9,9 @@ h1{
     font-size: 10px;
 }
 .register{
-    background-color: green;
+    background-color: green  ;
+    
+    
     
 }
 
@@ -51,11 +53,11 @@ h4{
     color: white;
     font-size: 10px;
 }
-.div{
+/*.div{
     background-color: white;
     display: flex;
     width: 30;
     height: 30px;
     border-radius: 2px;
 
-}
+}*/

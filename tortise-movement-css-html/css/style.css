@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.con {
+  background-color: gray;
+  width: 600px;
+  height: 800px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.container {
+  display: grid;
+  float: right;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 10px;
+  height: 80px;
+  width: 420px;
+  border: solid gray;
+}
+.name--1 {
+  /*background-color: ;*/
+}
+.name--2 {
+  /*background-color: r;*/
+}
+.name--3 {
+  /*background-color: ;*/
+}
+.name--4 {
+  background-color: rgb(138, 133, 133);
+}
+
+.on {
+  border-bottom: solid 5px;
+  border-left: solid 5px;
+}
+.right {
+  border-left: solid 5px;
+}
+.line {
+  /*border-left: solid black 1px;*/
+}
+/*.up{
+    border-left: solid;
+}*/
+.down {
+  border-bottom: solid 5px;
+  border-left: solid 5px;
+}
+.to {
+  border-bottom: solid 5px;
+  /*border-left: solid 1px;*/
+}
+.lin {
+  border-left: solid 5px;
+  border-top: solid 5px;
+}
+.long {
+  border-top: solid 5px;
+  border-right: solid 5px;
+}
+.race {
+  border-right: solid 5px;
+}
+.hi {
+  border-top: solid 5px;
+  border-left: solid 5px;
+}
+.hello {
+  border-top: solid 5px;
+}
+.com {
+  border-left: solid 5px;
+}
+.go {
+  border-bottom: solid 5px;
+}
+.mov {
+  border-bottom: solid 5px;
+}
+.ment {
+  border-left: solid 5px;
+}
+.doc {
+  border-left: solid 5px;
+  border-bottom: solid 5px;
+}
+.nam {
+  border-bottom: solid 5px;
+}
+.dot {
+  border-bottom: solid 5px;
+}
+.dash {
+  border-bottom: solid 5px;
+  border-right: solid 5px;
+}
+.noc {
+  border-right: solid 5px;
+}
+.tan {
+  border-top: solid 5px;
+}
+.book {
+  border-top: solid 5px;
+  border-right: solid 5px;
+}
+.wat {
+  border-right: solid 5px;
+}
+.box {
+  border-bottom: solid 5px;
+}
+.us {
+  border-bottom: solid 5px;
+  border-right: solid 5px;
+}
+.buy {
+  border-right: solid 5px;
+}
+.van {
+  border-right: solid 5px;
+  border-top: solid 5px;
+}
+.sav {
+  border-top: solid 5px;
+}
+.mon {
+  border-left: solid 5px;
+  border-top: solid 5px;
+}
+.nom {
+  border-top: solid 5px;
+}
+.las {
+  border-right: solid 5px;
+  border-top: solid 5px;
+}
+.sas {
+  border-top: solid 5px;
+}
+.dac {
+  border-left: solid 5px;
+  border-top: solid 5px;
+}
+.gas {
+  border-top: solid 5px;
+}
+.sir {
+  border-top: solid 5px;
+}
+.ma {
+  border-top: solid 5px;
+  border-right: solid 5px;
+}
+.rag {
+  border-right: solid 5px;
+}
+.ta {
+  border-right: solid 5px;
+}
+.van {
+  border-right: solid 5px;
+}
+.open {
+  border-right: solid 5px;
+}
+.ent {
+  border-right: solid 5px;
+}
+
+.turtle {
+  font-size: 3rem;
+  transform: rotateY(180deg);
+}

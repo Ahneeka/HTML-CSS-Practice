@@ -5,6 +5,15 @@
     
     
 }
+
+.con{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
 .container{
     display: grid;
     gap: 10px;
@@ -14,6 +23,8 @@
 }
 .name--1{
     background-color: aqua;
+    border-bottom: solid;
+    border-left: solid;
 }
 .name--2{
     background-color: yellow;
