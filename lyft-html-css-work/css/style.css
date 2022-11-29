@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin-inline: 0;
+}
+
+
 h1{
     color: rgb(255, 0, 191);
     
@@ -35,4 +41,17 @@ h1{
     font-family: sans-serif;
 }
 
+.let{
+    font-size: 50px;
+    color: rgb(15, 15, 43);
+    padding-right: 20px;
+    margin-inline: auto;
+    align-items: center;
+    
+}
+
+.position {
+    padding: 20px;
+    
+}
 
