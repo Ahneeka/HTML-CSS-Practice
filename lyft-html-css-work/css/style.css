@@ -47,11 +47,10 @@ h1{
     padding-right: 20px;
     margin-inline: auto;
     align-items: center;
-    
+    display-flex:center;
 }
 
 .position {
     padding: 20px;
-    
 }
 
