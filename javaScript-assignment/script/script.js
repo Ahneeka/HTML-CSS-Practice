@@ -9,12 +9,13 @@ while (userName.length > 10) {
 let password = prompt("Enter password");
 while (password.length < 6) {
   password = prompt(
-    "password can not be less than 6 characters\nEnter your password again ");
+    "password can not be less than 6 characters\nEnter your password again "
+  );
 }
 
 let confirmPassword = prompt("confirm your password");
 while (password !== confirmPassword) {
-  password = prompt("password do not match\nEnter your password again");
+  confirmPassword = prompt("password do not match\nEnter your password again");
 }
 
 // creation of user object
@@ -34,7 +35,7 @@ let userNameSpan = document.getElementById("userNameSpan");
 let passwordSpan = document.getElementById("passwordSpan");
 let confirmpasswordSpan = document.getElementById("confirmpasswordSpan");
 
-//how to add something to userNameSpan e.t.c
-userNameSpan.innerHTML = user.userName;
-passwordSpan.innerHTML = user.password;
-confirmpasswordSpan.innerHTML = user.confirmPassword;
+ //how to add something to userNameSpan e.t.c
+ userNameSpan.innerHTML = user.userName;
+ passwordSpan.innerHTML = user.password;
+ confirmpasswordSpan.innerHTML = user.confirmPassword;
