@@ -13,12 +13,12 @@ h1{
     align-items: center;
 }
 
-.navlink{
+ .navlink{
     text-decoration: none;
     padding: 10px;
     color: black;
     font-size: 10px;
-    
+     
 }
 
 .button{
@@ -32,25 +32,32 @@ h1{
 
 .navcon{
     margin-inline: auto;
-}
+} 
 
 .join{
     font-size: 8px;
     background-color: rgb(241, 241, 109);
     padding: 10px;
     font-family: sans-serif;
+    display-flex:center;
 }
 
 .let{
     font-size: 50px;
     color: rgb(15, 15, 43);
-    padding-right: 20px;
-    margin-inline: auto;
-    align-items: center;
-    display-flex:center;
+    padding: 10px;
+    margin-top: -300px;
+    text-align: right;
+    
 }
 
 .position {
-    padding: 20px;
+    padding: 10px;
+    
+}
+.button1{
+    text-align: right;
+    padding: 10px;
+    
 }
 
