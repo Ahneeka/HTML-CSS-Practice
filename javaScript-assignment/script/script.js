@@ -39,3 +39,5 @@ let confirmpasswordSpan = document.getElementById("confirmpasswordSpan");
  userNameSpan.innerHTML = user.userName;
  passwordSpan.innerHTML = user.password;
  confirmpasswordSpan.innerHTML = user.confirmPassword;
+
+ alert(navigator.userAgent)
