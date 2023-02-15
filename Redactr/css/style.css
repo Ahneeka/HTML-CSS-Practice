@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(156, 95, 212);
+
+}
+.join{
+    font-size: 30px;
+    background-color:rgb(199, 74, 199);
+    padding: 10px;
+    font-family: sans-serif;
+}
+.form{
+    margin: 10px;
+    padding: 5px;
+    font-family: josefin sans,sans-serif;
+}
+ .box{
+    height: 40px;
+    width: 250px;
+    background-color: wheat;
+
+}
+.form1{
+    margin: 10px;
+    padding: 5px;
+    font-family: josefin sans,sans-serif;
+    
+}
+
+.submit{
+    padding: 20px;
+    margin: 10px;
+    border: 3px;
+    width: 40px;
+    height: 80px;
+}

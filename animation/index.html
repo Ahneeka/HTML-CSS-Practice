@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./animationstyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="insider">
+      <div class="rocket rocketttt">
+        <img
+          src="./pics/kisspng-jet-pack-stock-photography-clip-art-giant-robot-5b5cd7bcbfaa89.1075141615328111967851.png"
+          alt="Astronaut"
+          class="floating_image"
+        />
+      </div>
+      <header>
+        <div class="first_nav">
+          <p class="nav_ptag">
+            <span class="nav_span">🚀 Rocketz</span>
+          </p>
+        </div>
+        <div class="second_nav">
+          <a class="first_a active white_link">Home</a>
+          <a class="second_a white_link">About</a>
+          <a class="third_a white_link">Jobs</a>
+          <a class="fifth_a white_link">Help</a>
+        </div>
+
+        <div class="third_nav">
+          <p>
+            <button class="show">Login</button>
+            <button class="start">Register</button>
+          </p>
+        </div>
+      </header>
+      <div class="world">
+        <img src="./pics/saturn.png" alt="Saturn picture" class="planet" />
+      </div>
+      <section class="middle">
+        <div class="text_part">
+          <div>
+            <p class="rocket_text">ROCKETZ</p>
+            <h1 class="biggest white_text">Get Your<br />Dream Job</h1>
+            <p class="white_text">
+              Get the job you want here, Lots of interesting jobs around<br />
+              the world! Let's find and apply for your dream job.
+            </p>
+            <div class="locx">
+              <div class="location">
+                <p class="top_in_locx">Location</p>
+                <p class="bottom_in_locx">Enter location</p>
+              </div>
+              <div class="type">
+                <p class="top_in_locx">Type</p>
+                <p class="bottom_in_locx">Enter type of job</p>
+              </div>
+              <button class="search">🔍 Search</button>
+            </div>
+          </div>
+        </div>
+        <div class="rocket"></div>
+      </section>
+
+      <img src="./pics/neptune.png" alt="Neptune picture" class="neptune" />
+
+      <div class="bottom_icons">
+        <div class="image">
+          <img src="./pics/highlighter.png" alt="designer" class="object" />
+          <img src="./pics/venus.png" alt="anime" class="low_icon" />
+          <p class="bottom_text">Designer</p>
+        </div>
+        <div class="image">
+          <img src="./pics/webcam.png" alt="photographer" class="object" />
+          <img src="./pics/venus.png" alt="anime" class="low_icon" />
+          <p class="bottom_text">Photographer</p>
+        </div>
+        <div class="image">
+          <img src="./pics/megaphone.png" alt="marketer" class="object" />
+          <img src="./pics/venus.png" alt="anime" class="low_icon" />
+          <p class="bottom_text">Marketer</p>
+        </div>
+        <div class="image">
+          <img src="./pics/notepad.png" alt="copywriter" class="object" />
+          <img src="./pics/venus.png" alt="anime" class="low_icon" />
+          <p class="bottom_text">Copywriter</p>
+        </div>
+        <div class="image">
+          <img src="./pics/jet-fighter.png" alt="explore" class="object" />
+          <img src="./pics/venus.png" alt="anime" class="low_icon" />
+          <p class="bottom_text">Explore More</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const jetPack = document.querySelector(".jetpackUser");
+      setTimeout(() => {
+        jetPack.classList.add("active");
+      }, 5000);
+    </script>
+  </body>
+</html>
