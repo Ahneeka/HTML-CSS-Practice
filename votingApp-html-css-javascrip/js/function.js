@@ -11,8 +11,9 @@ const getCards = () => {
             <div class="line"></div>
             <div class="candidate-info">
                 <span class="candidate-name">${contestant.name}</span> 
-                <span class="candidate-party">${contestant.party} 
+                <span class="candidate-party">
                     <img class="image" src="/images/${contestant.logo}.jpeg" alt="">
+                    ${contestant.party} 
                 </span>
             </div>
         </div>
@@ -50,45 +51,45 @@ const setWinnerLoser = (contestant) => {
     if (contestant === "obi"){
         document.querySelector('.btn-obi').textContent = "WINNER"
         if(contestants[1].vote > contestants[2].vote){
-            document.querySelector('.btn-tinubu').textContent = "second runner up"
-            document.querySelector('.btn-atiku').textContent = "Third runner up"
-        } else {
-            document.querySelector('.btn-tinubu').textContent = "Third runner up"
+            document.querySelector('.btn-tinubu').textContent = "First runner up"
             document.querySelector('.btn-atiku').textContent = "Second runner up"
+        } else {
+            document.querySelector('.btn-tinubu').textContent = "Second runner up"
+            document.querySelector('.btn-atiku').textContent = "First runner up"
         }
         if(contestants[1].vote == contestants[2].vote){
-            document.querySelector('.btn-tinubu').textContent = "second runner up"
-            document.querySelector('.btn-atiku').textContent = "second runner up"
+            document.querySelector('.btn-tinubu').textContent = "First runner up"
+            document.querySelector('.btn-atiku').textContent = "First runner up"
         }
         
     }
     else if(contestant === "tinubu"){
         document.querySelector('.btn-tinubu').textContent = "WINNER"
         if(contestants[0].vote > contestants[2].vote){
-            document.querySelector('.btn-obi').textContent = "second runner up"
-            document.querySelector('.btn-atiku').textContent = "Third runner up"
+            document.querySelector('.btn-obi').textContent = "First runner up"
+            document.querySelector('.btn-atiku').textContent = "Second runner up"
         }else{
-            document.querySelector('.btn-obi').textContent = "Third runner up"
-            document.querySelector('.btn-atiku').textContent = "second runner up"
+            document.querySelector('.btn-obi').textContent = "Second runner up"
+            document.querySelector('.btn-atiku').textContent = "First runner up"
         }
         if(contestants[0].vote == contestants[2].vote){
-            document.querySelector('.btn-obi').textContent = "second runner up"
-            document.querySelector('.btn-atiku').textContent = "second runner up"
+            document.querySelector('.btn-obi').textContent = "First runner up"
+            document.querySelector('.btn-atiku').textContent = "First runner up"
        }
    }
 
     else if(contestant === "atiku"){
         document.querySelector('.btn-atiku').textContent = "WINNER"
         if(contestants[0].vote > contestants[1].vote){
-        document.querySelector('.btn-obi').textContent = "second runner up"
-        document.querySelector('.btn-tinubu').textContent = "Third runner up"
+        document.querySelector('.btn-obi').textContent = "First runner up"
+        document.querySelector('.btn-tinubu').textContent = "Second runner up"
         }else{
-        document.querySelector('.btn-obi').textContent = "Third runner up"
-        document.querySelector('.btn-tinubu').textContent = "second runner up"
+        document.querySelector('.btn-obi').textContent = "Second runner up"
+        document.querySelector('.btn-tinubu').textContent = "First runner up"
         }
         if(contestants[0].vote == contestants[1].vote){
-            document.querySelector('.btn-obi').textContent = "second runner up"
-            document.querySelector('.btn-tinubu').textContent = "second runner up"
+            document.querySelector('.btn-obi').textContent = "First runner up"
+            document.querySelector('.btn-tinubu').textContent = "First runner up"
        }
     }
 
